@@ -1,0 +1,72 @@
+.hero-item{
+    height: 80vh;
+    width: 100%;
+    padding: 4rem 9rem 0rem 150px;
+    display: flex;
+
+}
+.main-content{
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+
+.images{
+    background: #d9e0ff;
+    position: absolute;
+    top: 0;
+    right: 12%;
+    z-index: -2;
+}
+.girl-img{
+    display: block;
+    padding-top: 100px;
+    width: 410px;
+    margin-bottom: -205px;
+}
+.button a{
+    display: inline-block;
+    text-decoration: none;
+    background: #3f51b5;
+    color: wheat;
+    padding: 10px 30px;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 6px;
+}
+.button a:hover{
+    background: rgb(212, 170, 92);
+    color: #3f51b5;
+  }
+@media screen and (max-width: 640px){
+.hero-item{
+   padding: 0rem 0rem 5rem 5rem;
+   position: relative;
+}
+
+    
+    .para p{
+        display: none;
+    }
+    .button{
+        margin-left: 80px;
+        margin-top: 36rem;
+      
+    }
+    .button a{
+        display: inline;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    
+    }
+    .heading{
+        margin: 0;
+    }
+    .heading h1{
+  display: none;
+    }
+
+}

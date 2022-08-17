@@ -3,6 +3,10 @@
     width: 100% ;
     display: flex;
     justify-content: space-between;
+    border: 1px solid red;
+    position: absolute;
+    top: 0; 
+    left: 0; 
 }
 .into-img{
     position: absolute;

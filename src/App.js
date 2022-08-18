@@ -1,7 +1,7 @@
-import Home from "./components/HeroImg";
+import Home from './components/HeroImg';
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Mens from "./components/Heroimg2";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Mens from './components/Heroimg2';
 function App() {
   return (
     <>

@@ -1,14 +1,14 @@
-import "./Herostyle.css";
-import React from "react";
-import ProductImg from "../assets/user.png";
-import { Link } from "react-router-dom";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import './Herostyle.css';
+import React from 'react';
+import ProductImg from '../assets/user.png';
+import { Link } from 'react-router-dom';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 const HeroImg = () => {
   return (
     <>
-      <div className="hero-item" style={{ position: "relative" }}>
+      <div className="hero-item" style={{ position: 'relative' }}>
         <Navbar />
         <div className="main-content">
           <div className="heading">
@@ -16,10 +16,9 @@ const HeroImg = () => {
           </div>
           <div className="para">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
-              explicabo expedita debitis dicta sequi accusamus magnam sed vel
-              aut reprehenderit repudiandae fugiat suscipit cupiditate, officia
-              quis eaque, perferendis rerum! Nam?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse explicabo expedita
+              debitis dicta sequi accusamus magnam sed vel aut reprehenderit repudiandae fugiat
+              suscipit cupiditate, officia quis eaque, perferendis rerum! Nam?
             </p>
           </div>
           <div className="button">

@@ -1,8 +1,8 @@
-import "./NavbarStylesheet.css";
-import React, { useState } from "react";
-import IntroImg from "../assets/logo.png";
-import { Link } from "react-router-dom";
-import { FaBars, FaTimes } from "react-icons/fa";
+import './NavbarStylesheet.css';
+import React, { useState } from 'react';
+import IntroImg from '../assets/logo.png';
+import { Link } from 'react-router-dom';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -17,7 +17,7 @@ const Navbar = () => {
       apply active class in all the link at once, try creating the loops of 
       menu & set active class there.
       */}
-      <ul className={click ? "nav-menu active" : "nav-menu"}>
+      <ul className={click ? 'nav-menu active' : 'nav-menu'}>
         <li>
           <Link to="/home">Home</Link>
         </li>
@@ -36,9 +36,9 @@ const Navbar = () => {
       </ul>
       <div className="hamburger" onClick={handleClick}>
         {click ? (
-          <FaTimes size={20} style={{ color: "#3f51b5" }} />
+          <FaTimes size={20} style={{ color: '#3f51b5' }} />
         ) : (
-          <FaBars size={20} style={{ color: "#3f51b5" }} />
+          <FaBars size={20} style={{ color: '#3f51b5' }} />
         )}
       </div>
     </div>
